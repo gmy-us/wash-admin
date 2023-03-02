@@ -1,0 +1,35 @@
+{
+  "miniprogramRoot": "dist/weapp/",
+  "description": "速点星管理端",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false,
+    "ignoreUploadUnusedFiles": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "coverView": false,
+    "showShadowRootInWxmlPanel": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "srcMiniprogramRoot": "dist/weapp/",
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "libVersion": "2.30.1",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "appid": "wx80e8382463053b21",
+  "projectname": "wash-admin"
+}
