@@ -18,7 +18,7 @@ export default interface Storage{
   /**
   * 外键ID 可以是任何表
   */
-  foreignId?: number
+  foreignId?: string
 
   /**
   * 页面路径
@@ -38,7 +38,7 @@ export default interface Storage{
   /**
   * 主键
   */
-  id?: number
+  id?: string
 
   /**
   * 是否已删除

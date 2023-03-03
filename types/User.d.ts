@@ -3,7 +3,7 @@
 export type UserType = string | 'ADMIN' | 'USER' | 'MERCHANT'
 
 export interface Transfer{
-  shopId?: number
+  shopId?: string
 
   plate?: string
 
@@ -22,7 +22,7 @@ export interface Transfer{
   /**
   * 主键
   */
-  id?: number
+  id?: string
 
   /**
   * 是否已删除
@@ -92,7 +92,7 @@ export default interface User{
   /**
   * 主键
   */
-  id?: number
+  id?: string
 
   /**
   * 是否已删除

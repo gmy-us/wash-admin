@@ -1,7 +1,7 @@
 export type StationStatus = string | 'IDLE' | 'CAR_WASH' | 'MAINTAIN' | 'MANUAL_CAR_WASH'
 
 export default interface ShopTag{
-  shopId?: number
+  shopId?: string
 
   textColor?: string
 
@@ -12,7 +12,7 @@ export default interface ShopTag{
   /**
   * 主键
   */
-  id?: number
+  id?: string
 
   /**
   * 是否已删除
